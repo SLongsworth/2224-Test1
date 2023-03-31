@@ -35,6 +35,8 @@ func myBioHandler(w http.ResponseWriter, r *http.Request) {
 					body {
 						font-size: 30px;
 						text-align: center;
+						background-color: pink;
+					}
 				</style>
 			</head>
 			<body>
@@ -72,6 +74,8 @@ func randoHandler(w http.ResponseWriter, r *http.Request) {
 					body {
 						font-size: 30px;
 						text-align: center;
+						background-color: yellow;
+					}
 				</style>
 			</head>
 			<body>
@@ -95,6 +99,8 @@ func greetingHandler(w http.ResponseWriter, r *http.Request) {
 					body {
 						font-size: 30px;
 						text-align: center;
+						background-color: blue;
+					}
 				</style>
 			</head>
 			<body>
